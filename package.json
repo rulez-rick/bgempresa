@@ -1,0 +1,19 @@
+{
+  "name": "bg-empresa",
+  "version": "1.0.0",
+  "description": "bg empresa",
+  "main": "index.html\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bindex\u001b[3~\u001b[3~.js) index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rulez-rick/bgempresa.git"
+  },
+  "author": "ricky ordonez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rulez-rick/bgempresa/issues"
+  },
+  "homepage": "https://github.com/rulez-rick/bgempresa#readme"
+}
