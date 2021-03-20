@@ -4,7 +4,8 @@
   "description": "bg empresa",
   "main": "index.html\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bindex\u001b[3~\u001b[3~.js) index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rulez-rick/bgempresa/issues"
   },
-  "homepage": "https://github.com/rulez-rick/bgempresa#readme"
+  "homepage": "https://github.com/rulez-rick/bgempresa#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
