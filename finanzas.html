@@ -240,10 +240,10 @@ Estas tareas han de garantizar un correcto funcionamiento interno del departamen
          <button class="myButton1" id="show" onclick="document.getElementById('fventa').show()">Facturas de venta.</button>
          <button class="myButton1" id="show" onclick="document.getElementById('ncredito').show()">Nota credito.</button><br>
          <button class="myButton1" id="show" onclick="document.getElementById('ndebito').show()">Nota debito.</button>   
-         <button class="myButton1" id="show" onclick="document.getElementById('nconta').show()">Nota de contabilidad.</button>
+         <button class="myButton1" id="show" onclick="document.getElementById('ncontable').show()">Nota de contabilidad.</button>
        </div>
 
-        <dialog class="styleboxes" id="caja" style="position: absolute; top: 300px; ">
+        <dialog class="styleboxes" id="caja" >
               <img src="img/finanzas/rcaja.png" class="responsive" style=" max-width: 700px; padding: 10px;">
                <p class="responsive scroll" style=" max-width: 700px; padding: 10px" >Recibo de Caja: Son aquellos que se usan como soporte de prueba de todos los ingresos a caja recaudados por diversos conceptos, representados en efectivo, cheque, tarjetas débito, tarjetas crédito. Normalmente se elabora en original y copia, destinando el original para quien realiza el pago y la copia para soportar el registro en el sistema de información contable.</p>
                              
@@ -253,7 +253,7 @@ Estas tareas han de garantizar un correcto funcionamiento interno del departamen
               
             </dialog>
         
-           <dialog class="styleboxes" id="cjmenor" style="position: absolute; top: 400px; ">
+           <dialog class="styleboxes" id="cjmenor" >
 
               <img src="img/finanzas/cjmenor.png" class="responsive" style=" max-width: 700px; padding: 10px;">
 
@@ -266,9 +266,9 @@ Estas tareas han de garantizar un correcto funcionamiento interno del departamen
               
             </dialog>
 
-            <dialog class="styleboxes" id="fventa" style="position: absolute; top: 400px; ">
+            <dialog class="styleboxes" id="fventa" >
 
-              <div class="scroll" style="height: 400px"><img src="img/finanzas/factura.png" class="responsive" style=" max-width: 700px; padding: 10px;"></div>
+              <div class="scroll" style="height: 300px"><img src="img/finanzas/factura.png" class="responsive" style=" max-width: 700px; padding: 10px;"></div>
 
                     <p class="responsive scroll" style=" max-width: 700px; padding: 10px" >Factura de venta: Una factura de venta es un documento revelador, que hace constar la adquisición y entrega de un bien o servicio, por medio del cual se específica la fecha de la operación, el nombre de la partes de la operación de consumo, la descripción del producto o servicio objeto del negocio, el valor del negocio, la forma de pago, entre otros conceptos, que se encuentran especificados como requisitos mínimos de una factura..</p>
                              
@@ -277,6 +277,62 @@ Estas tareas han de garantizar un correcto funcionamiento interno del departamen
                <a href="descargables/factura.xlsx" class="myButton1" target="black" >Descargar</a>
               
             </dialog>
+
+            <dialog class="styleboxes" id="ncredito" >
+
+              <div class="scroll" style="height: 250px"><img src="img/finanzas/ncredito.png" class="responsive" style=" max-width: 700px; padding: 10px;"></div>
+
+                    <p class="responsive scroll" style=" max-width: 700px; padding: 10px" >Una nota de crédito es un documento que un negocio le manda a un cliente para otorgarle un crédito sobre algún producto que compró luego de que se realizó la factura.<br>
+                    Las razones por las cuales se emite tal documento se dan cuando hay una anulación de la venta, devolución un descuento o bonificación.  La nota de crédito se realiza entonces para reducir el importe previamente fijado.</p>
+                             
+               <button class="myButtonred" id="close" onclick="document.getElementById('ncredito').close()">Cerrar!</button>
+               <a href="https://onedrive.live.com/edit.aspx?cid=6b429f9c73ac902a&page=view&resid=6B429F9C73AC902A!242&parId=6B429F9C73AC902A!235&app=Excel" class="myButton" target="black">Crear</a>
+               <a href="descargables/ndcredito.xlsx" class="myButton1" target="black" >Descargar</a>
+              
+            </dialog>
+
+            <dialog class="styleboxes" id="ndebito" >
+
+              <div class="scroll" style="height: 250px"><img src="img/finanzas/ndebito.png" class="responsive" style=" max-width: 700px; padding: 10px;"></div>
+
+                 <div class="responsive scroll" style="height: 150px; max-width: 700px; padding: 10px" >
+                  La Nota de Débito es un formato para generar sus notas de débito a sus clientes.<br>
+                   una nota de débito siempre se traduce en un ingreso para la empresa que la emite; en este sentido, la misma le permite al vendedor solucionar algunos errores que se hayan dado al momento de emitir la factura o la boleta, pudiendo así mediante una nota de débito recuperar su dinero.<br>
+
+                    Características de la Planilla
+                    <ul>
+                      <li>Se completa el original y automáticamente se genera el duplicado.</li>
+                      <li>Flexible para incluír información de su empresa.</li>
+                      <li>Lista para imprimir en hoja A4 horizontal </li>
+   
+                    </ul>
+               </div>
+
+                          
+               <button class="myButtonred" id="close" onclick="document.getElementById('ndebito').close()">Cerrar!</button>
+               <a href="https://onedrive.live.com/edit.aspx?cid=6b429f9c73ac902a&page=view&resid=6B429F9C73AC902A!244&parId=6B429F9C73AC902A!235&app=Excel" class="myButton" target="black">Crear</a>
+               <a href="descargables/ndebito.xlsx" class="myButton1" target="black" >Descargar</a>
+              
+            </dialog>
+
+            <dialog class="styleboxes" id="ncontable" >
+
+              <div class="scroll" style="height: 250px"><img src="img/finanzas/ncontable.png" class="responsive" style=" max-width: 700px; padding: 10px;"></div>
+
+                 <div class="responsive scroll" style="height: 150px; max-width: 700px; padding: 10px" >
+                  La Nota de contabilidad: es un soporte contable interno de la empresa, cuyo objetivo es el de registrar operaciones contables, es decir cuando dichas operaciones no tienen un registro externo o para las cuales no existen documentos internos específicos.<br>
+
+                    Se debe tener claro que las operaciones que realice una empresa con otro ente económico, necesariamente deben tener soportes válidos como son las facturas de ventas. Al decir esto, nos referimos a que, la nota de contabilidad no puede ser reemplazada por una factura de venta o por otro documento diferente.
+               </div>
+
+                          
+               <button class="myButtonred" id="close" onclick="document.getElementById('ndebito').close()">Cerrar!</button>
+               <a href="https://onedrive.live.com/edit.aspx?cid=6b429f9c73ac902a&page=view&resid=6B429F9C73AC902A!246&parId=6B429F9C73AC902A!235&app=Excel" class="myButton" target="black">Crear</a>
+               <a href="descargables/ncontable.xlsx" class="myButton1" target="black" >Descargar</a>
+              
+            </dialog>
+
+
 
 
 
